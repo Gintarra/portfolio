@@ -1,38 +1,312 @@
-.App {
+/* Flex classes */
+.d-flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
+.space-btw {
+  justify-content: space-between;
+}
+.space-ev {
+  justify-content: space-evenly;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.grow1 {
+  flex: 1;
+}
+.grow2 {
+  flex: 2;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.align-end {
+  align-items: flex-end;
+}
+/* Margins, paddings */
+.pad-20 {
+  padding: 20px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+/* Toolbar */
+.toolbar {
+  background-color: #222629;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  color: white;
+  z-index: 999;
+}
+.h3toolbar {
+  font-weight: bold;
+}
+.h3toolbar:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+/* intro */
+.intro {
+  min-height: calc(100vh - 70px);
+  /* background-image: url("https://cdn.wallpapersafari.com/40/92/HvIEnr.png"); */
+  /* background-image: url("https://media.istockphoto.com/photos/white-desk-office-with-laptop-smartphone-and-other-work-supplies-with-picture-id1283506462?b=1&k=20&m=1283506462&s=170667a&w=0&h=CNZMLfz9nQ398KYp8ORE8Q2uYxacGCQEpLznSbLuJgw="); */
+  background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWx8ZW58MHx8MHx8&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-box {
+  width: 640px;
+  min-height: calc(100vh - 158px);
+}
+.name-container {
+  font-size: 26px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cursor{
+  cursor: pointer;
+}
+.cursor:hover{
+  transform: scale(1.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* about */
+.img-me {
+  width: 250px;
+}
+.text-center {
+  text-align: center;
+}
+.about-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card {
+  margin: 20px 80px;
+  padding: 10px;
+}
+.about-text a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+/* .about-text a:hover {
+  cursor: pointer;
+  transform: scale(1.65);
+} */
+/* education */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  box-sizing: border-box;
+}
+
+.timeline-container {
+  position: relative;
+  margin: 40px 0;
+  background-image: url("https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+}
+
+.timeline-container::after {
+  background-color: #4e4e4e;
+  content: "";
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 100%;
+}
+
+.timeline-item {
+  justify-content: flex-end;
+  padding: 30px 30px 30px 0;
+  position: relative;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.timeline-item-content {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #fff;
+  align-items: flex-end;
+  padding: 15px;
+  position: relative;
+  width: 400px;
+  max-width: 70%;
+  text-align: right;
+}
+
+.timeline-item-content::after {
+  content: " ";
+  background-color: #fff;
+  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: -7.5px;
+  top: calc(50% - 7.5px);
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content::after {
+  right: auto;
+  left: -7.5px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .tag {
+  left: auto;
+  right: 5px;
+}
+
+.timeline-item-content time {
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.timeline-item-content p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0;
+  max-width: 250px;
+}
+
+.timeline-item-content .circle {
+  background-color: #fff;
+  border: 3px solid #363636;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -40px;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .circle {
+  right: auto;
+  left: -40px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .timeline-item-content {
+    max-width: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media only screen and (max-width: 767px) {
+  .timeline-item-content,
+  .timeline-item:nth-child(odd) .timeline-item-content {
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .timeline-item-content time {
+    margin-top: 20px;
+  }
+}
+/* Skills */
+.text-center {
+  text-align: center;
+}
+.bar-grey {
+  background-color: rgb(255, 255, 255);
+  border: solid 2px rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bar-container {
+  background: linear-gradient(
+    90deg,
+    rgba(23, 24, 24, 0.9) 0%,
+    rgba(133, 133, 133, 0.9) 50%
+  );
+  height: 14px;
+  border-radius: 5px;
+}
+/* Projects */
+.project-container {
+  margin: 40px 80px;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid;
+}
+
+.project-card {
+  width: 230px;
+  /* height: 295px; */
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.project-card-image {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  outline: 1px solid #e1e1e1;
+  width: 100%;
+  height: 160px;
+  cursor: pointer;
+}
+
+.project-card-image-nav {
+  z-index: 10;
+  padding: 5px 3px 5px 3px;
+  width: 100%;
+  height: 160px;
+  cursor: pointer;
+}
+
+.project-card-image-slider {
+  opacity: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  width: 100%;
+  height: 3px;
+}
+
+.project-card-image-slider-active {
+  background-color: rgba(43, 47, 49, 0.7);
+  width: 100%;
+  height: 3px;
+}
+/* footer */
+.footer-container {
+  border-top: 1px grey solid;
+  background-color: #222629;
+  padding: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

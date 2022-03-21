@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Auction App",
+      "text": "Simple auction app, where users can upload item, bid, set auction time. Created with NodeJs and ReactJs",
+      "img":[ "images/auction1.png",
+     "images/auction2.png"],
+     "url": "http://google.com"
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "text": "Simple game app. User can play game vs computer.",
+      "img":[ "images/rockPaperScissors1.png",
+        "images/rockPaperScissors2.png"],
+       "url": "http://google.com"
+    },
+    {
+      "title": "Fight Club",
+      "text": "Simple game app, where player plays vs computer (random animal). Player can choose character, weapon. When player wins fight, he will get money and can buy potions. Potions are two different types: healing and with variuos effects (add strenght, stamina and etc.)",
+      "img": ["images/fightClub1.png",
+        "images/fightClub5.png"],
+       "url": "http://google.com"
+    },
+    {
+      "title": "Make It Easy",
+      "text": "Html project. This is very simplify front-end framework. User can use styled buttons, a lot of flex classes, margins, paddings.",
+      "img":[ "images/makeItEasy1.png",
+        "images/makeItEasy2.png"],
+      "url": "http://google.com"
+    },
+    {
+      "title": "Siulyk24",
+      "text": "Group project. It is like market, people can sell and buy items. when you find item which you want, you must offer price, then seller can accept it or decline. when he accepts, he gets buyer's contact. Users can write reviews, messages to admin, change profile picture.",
+      "img": ["images/makeItEasy3.png",
+        "images/makeItEasy6.png"],
+       "url": "http://google.com"
+    }
+  ]
