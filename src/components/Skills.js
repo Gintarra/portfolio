@@ -10,12 +10,12 @@ const Skills = () => {
             <div className='d-flex justify-center align-center'>  <GiSkills style={{ fontSize: "3rem" }} /> <h2>Skills</h2></div>
             <div className='d-flex'>
                 <div className='card grow1'>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "90%" }}>
                         <span>HTML</span>
-                        <span>85%</span>
+                        <span>90%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "90%" }}></div>
                     </div>
                     <div className="d-flex space-btw" style={{ width: "85%" }}>
                         <span>CSS</span>
@@ -31,42 +31,42 @@ const Skills = () => {
                     <div className="bar-grey">
                         <div className="bar-container text-center" style={{ width: "85%" }}></div>
                     </div>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "80%" }}>
                         <span>ReactJS</span>
-                        <span>85%</span>
+                        <span>80%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "80%" }}></div>
                     </div>
                 </div>
                 <div className='card grow1'>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "70%" }}>
                         <span>NodeJS</span>
-                        <span>85%</span>
+                        <span>70%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "70%" }}></div>
                     </div>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "75%" }}>
                         <span>GitHub</span>
-                        <span>85%</span>
+                        <span>75%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "75%" }}></div>
                     </div>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "70%" }}>
                         <span>MongoDB</span>
-                        <span>85%</span>
+                        <span>70%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "70%" }}></div>
                     </div>
-                    <div className="d-flex space-btw" style={{ width: "85%" }}>
+                    <div className="d-flex space-btw" style={{ width: "70%" }}>
                         <span>TypeScript</span>
-                        <span>85%</span>
+                        <span>70%</span>
                     </div>
                     <div className="bar-grey">
-                        <div className="bar-container text-center" style={{ width: "85%" }}></div>
+                        <div className="bar-container text-center" style={{ width: "70%" }}></div>
                     </div>
                 </div>
             </div>

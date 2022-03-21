@@ -13,7 +13,7 @@ const Projects = () => {
                 <GiLaptop style={{ fontSize: "3rem" }} />
                 <h2 className='title'>My Projects</h2>
             </div>
-            <div className='d-flex wrap'>
+            <div className='d-flex wrap justify-center '>
                 {data.map((x, i)=> 
                     <OneProject key={i} index={i} />
                 )}           

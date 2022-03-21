@@ -36,14 +36,13 @@
 .pad-20 {
   padding: 20px;
 }
-.mb-40{
+.mb-40 {
   margin-bottom: 40px;
 }
 
 body {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   min-height: 100vh;
-  font-family: "Lato", sans-serif;
 }
 /* Toolbar */
 .toolbar {
@@ -79,17 +78,22 @@ body {
   font-size: 26px;
   text-align: center;
 }
-.cursor{
+.cursor {
   cursor: pointer;
 }
-.cursor:hover{
+.cursor:hover {
   transform: scale(1.1);
 }
 
 /* about */
+.about-container {
+  min-height: 300px;
+}
 .img-me {
   width: 250px;
+  filter: grayscale(1);
 }
+
 .text-center {
   text-align: center;
 }
@@ -107,10 +111,23 @@ body {
   color: black;
   font-weight: bold;
 }
-/* .about-text a:hover {
+
+.about-container button {
   cursor: pointer;
-  transform: scale(1.65);
-} */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #222629;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.about-container button:hover {
+  cursor: pointer;
+  background-color: #36383a;
+  color: white;
+  transform: scale(1.1);
+}
 /* education */
 @import url("https://fonts.googleapis.com/css?family=Lato");
 * {
@@ -149,7 +166,7 @@ body {
 
 .timeline-item-content {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   background-color: #fff;
   align-items: flex-end;
   padding: 15px;
@@ -260,16 +277,19 @@ body {
   margin: 40px 80px;
   padding: 20px;
   width: 300px;
-  border: 1px solid;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  height: auto;
 }
 
 .project-card {
   width: 230px;
-  /* height: 295px; */
   position: relative;
   overflow: hidden;
-  margin-bottom: 15px;
   margin-top: 10px;
+}
+.project-card > p {
+  text-align: justify;
 }
 
 .project-card-image {

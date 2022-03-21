@@ -12,7 +12,7 @@ const Education = () => {
         school: "Kaunas University Of Technology"
     },
     {
-        title: "TypeScript | Front-end Course",
+        title: "Programming | Front-end Course",
         year: "2021-2022",
         school: "CodeAcademy"
     }

@@ -17,8 +17,6 @@ const Contacts = () => {
                 <p className='align-center d-flex'> <BsTelephone style={{ fontSize: "2rem" }} /> +370 627 72448 </p>
                 <p className='align-center d-flex'> <IoLocationOutline style={{ fontSize: "2rem" }} /> Kaunas, Lithuania </p>
             </div>
-
-
         </div>
     );
 };
