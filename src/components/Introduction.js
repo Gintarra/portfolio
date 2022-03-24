@@ -25,9 +25,9 @@ const Introduction = () => {
                         />
                     </h2>
                 </div>
-                <h2 className='text-center'> Front-end Developer </h2>
+                <h2 className='text-center name-container'> Front-end Developer </h2>
             </div>
-            <div className='align-end mb-40 cursor' onClick={scrollToAbout}><MdArrowDropDownCircle style={{color: "black", fontSize: "3em"}}/></div>
+            <div className='align-end mb-40 cursor sm-d-none' onClick={scrollToAbout}><MdArrowDropDownCircle style={{color: "black", fontSize: "3em"}}/></div>
         </div>
     );
 };

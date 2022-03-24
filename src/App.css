@@ -40,13 +40,10 @@
   margin-bottom: 40px;
 }
 
-body {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  min-height: 100vh;
-}
 /* Toolbar */
 .toolbar {
   background-color: #222629;
+  color: #44db4b;
   height: 70px;
   position: sticky;
   top: 0;
@@ -84,14 +81,35 @@ body {
 .cursor:hover {
   transform: scale(1.1);
 }
-
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 480px) {
+  .intro {
+    min-height: calc(55vh - 158px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .intro-box {
+    max-width: 480px;
+    min-height: calc(20vh - 158px);
+  }
+  .name-container {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sm-d-none {
+    display: none;
+  }
+}
 /* about */
 .about-container {
   min-height: 300px;
 }
 .img-me {
   width: 250px;
-  filter: grayscale(1);
+  filter: grayscale(0.4);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
 }
 
 .text-center {
@@ -111,7 +129,6 @@ body {
   color: black;
   font-weight: bold;
 }
-
 .about-container button {
   cursor: pointer;
   margin-top: 20px;
@@ -127,6 +144,35 @@ body {
   background-color: #36383a;
   color: white;
   transform: scale(1.1);
+}
+.hobbies-box {
+  width: 0;
+  height: 0;
+}
+@media only screen and (max-width: 767px) {
+  .img-me {
+    width: 150px;
+  }
+  .md-grow {
+    flex: unset;
+  }
+  .md-d-block {
+    display: block;
+  }
+  .card {
+    margin: 20px 0;
+  }
+  .md-column{
+    flex-direction: column;
+  }
+  .md-align-center{
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    margin: 20px 0;
+  }
 }
 /* education */
 @import url("https://fonts.googleapis.com/css?family=Lato");
@@ -166,7 +212,6 @@ body {
 
 .timeline-item-content {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  /* border-radius: 5px; */
   background-color: #fff;
   align-items: flex-end;
   padding: 15px;
@@ -234,16 +279,9 @@ body {
   left: -40px;
 }
 
-@media only screen and (max-width: 1023px) {
-  .timeline-item-content {
-    max-width: 100%;
-  }
-}
-
 @media only screen and (max-width: 767px) {
   .timeline-item-content,
-  .timeline-item:nth-child(odd) .timeline-item-content {
-    padding: 15px 10px;
+  .timeline-item:nth-child(odd) {
     text-align: center;
     align-items: center;
   }
@@ -252,13 +290,40 @@ body {
     margin-top: 20px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .circle {
+    display: none;
+  }
+  .timeline-item {
+    padding: 15px 10px;
+    width: 100%;
+  }
+  .timeline-item:nth-child(odd){
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    align-items: center;
+  }
+  .timeline-item-content {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .timeline-item-content::after {
+    display: none;
+  }
+  .timeline-container::after {
+    display: none;
+  }
+}
 /* Skills */
 .text-center {
   text-align: center;
 }
 .bar-grey {
-  background-color: rgb(255, 255, 255);
-  border: solid 2px rgb(255, 255, 255);
+  background-color: rgb(218, 218, 218);
+  border: solid 2px rgb(218, 218, 218);
   margin-bottom: 10px;
   border-radius: 5px;
 }
@@ -277,7 +342,7 @@ body {
   margin: 40px 80px;
   padding: 20px;
   width: 300px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
   background-color: #ffffff;
   height: auto;
 }

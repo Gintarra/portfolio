@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { GiSkills } from 'react-icons/gi'
 import { useContext } from 'react';
 import { MyContext } from '../context/MyContext';
 
 const Skills = () => {
     const { toSkills } = useContext(MyContext)
+
+    function handleScroll() {
+
+        const scrollTop = toSkills.current
+        console.log(` myRef.scrollTop: ${scrollTop}`)
+    }
+    // function componentDidMount() {
+    //     window.addEventListener('scroll', handleScroll);
+    // }
     return (
         <div ref={toSkills}>
-            <div className='d-flex justify-center align-center'>  <GiSkills style={{ fontSize: "3rem" }} /> <h2>Skills</h2></div>
+            <div onScroll={() => handleScroll} style={{height: '100px', overflow: "auto"}} className='d-flex justify-center align-center'>  <GiSkills style={{ fontSize: "3rem" }} /> <h2>Skills</h2></div>
             <div className='d-flex'>
                 <div className='card grow1'>
                     <div className="d-flex space-btw" style={{ width: "90%" }}>
