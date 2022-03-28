@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
+import './skills.css'
 import { GiSkills } from 'react-icons/gi'
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
 
 const Skills = () => {
     const { toSkills } = useContext(MyContext)

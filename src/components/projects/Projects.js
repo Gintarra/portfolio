@@ -1,9 +1,10 @@
 import React from 'react';
+import './projects.css'
 import { GiLaptop } from 'react-icons/gi'
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
 import OneProject from './OneProject';
-import data from '../assets/data.json'
+import data from '../../assets/data.json'
 
 const Projects = () => {
     const { toProjects } = useContext(MyContext)

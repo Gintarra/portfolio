@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from '../assets/data.json'
+import data from '../../assets/data.json'
 
 const OneProject = ({ index }) => {
     const [activeImage, setActiveImage] = useState(0)

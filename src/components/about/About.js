@@ -2,7 +2,8 @@ import React from 'react';
 import { BsFillPersonFill } from 'react-icons/bs'
 import TagCloud from 'react-tag-cloud';
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
+import './about.css'
 
 const About = () => {
     const { toAbout } = useContext(MyContext)

@@ -1,7 +1,8 @@
 import React from 'react';
+import './introduction.css'
 import { Typewriter } from 'react-simple-typewriter';
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
 import {MdArrowDropDownCircle} from 'react-icons/md'
 
 const Introduction = () => {

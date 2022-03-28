@@ -1,6 +1,7 @@
 import React from 'react';
+import './education.css'
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
 import { GiDiploma } from 'react-icons/gi'
 import EducationItems from './EducationItems';
 

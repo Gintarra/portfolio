@@ -1,0 +1,50 @@
+.project-container {
+  margin: 40px 80px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  height: auto;
+}
+
+.project-card {
+  width: 230px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.project-card > p {
+  text-align: justify;
+}
+
+.project-card-image {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  outline: 1px solid #e1e1e1;
+  width: 100%;
+  height: 160px;
+  cursor: pointer;
+}
+
+.project-card-image-nav {
+  z-index: 10;
+  padding: 5px 3px 5px 3px;
+  width: 100%;
+  height: 160px;
+  cursor: pointer;
+}
+
+.project-card-image-slider {
+  opacity: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  width: 100%;
+  height: 3px;
+}
+
+.project-card-image-slider-active {
+  background-color: rgba(43, 47, 49, 0.7);
+  width: 100%;
+  height: 3px;
+}

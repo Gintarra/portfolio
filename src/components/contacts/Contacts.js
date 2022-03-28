@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext } from 'react';
-import { MyContext } from '../context/MyContext';
+import { MyContext } from '../../context/MyContext';
 import { GrContactInfo } from 'react-icons/gr'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsTelephone } from 'react-icons/bs'
