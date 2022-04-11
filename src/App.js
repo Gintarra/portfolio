@@ -7,7 +7,7 @@ import Skills from './components/skills/Skills';
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
 import Projects from './components/projects/Projects';
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import { MyContext } from './context/MyContext'
 
 
@@ -17,6 +17,9 @@ function App() {
   const toContact = useRef()
   const toProjects = useRef()
   const toSkills = useRef()
+  useEffect(() => {
+    document.title = "Portfolio"
+  }, []);
 
   return (
     <div>
