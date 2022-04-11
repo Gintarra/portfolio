@@ -19,7 +19,7 @@
   },
   {
     "title": "Make It Easy",
-    "text": "Html project. This is very simple front-end framework. User can use styled buttons, a lot of flex classes, margins, paddings.",
+    "text": "Html project. This is very simple front-end framework. User can use styled buttons, a lot of flex classes, margins, paddings. ",
     "img": ["images/makeItEasy1.PNG", "images/makeItEasy2.PNG"],
     "url": "https://github.com/Gintarra/makeItEasy"
   },
