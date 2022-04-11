@@ -2,31 +2,31 @@
   {
     "title": "Auction App",
     "text": "Simple auction app, where users can upload item, bid, set auction time. Created with NodeJs and ReactJs",
-    "img": ["images/auction1.png", "images/auction2.png"],
+    "img": ["images/auction1.PNG", "images/auction2.PNG"],
     "url": "https://github.com/Gintarra/auction_app"
   },
   {
     "title": "Rock Paper Scissors",
     "text": "Simple game app. User can play game 'Rock Paper Scissors' vs computer.",
-    "img": ["images/rockPaperScissors1.png", "images/rockPaperScissors2.png"],
+    "img": ["images/rockPaperScissors1.PNG", "images/rockPaperScissors2.PNG"],
     "url": "https://github.com/Gintarra/Vaskici"
   },
   {
     "title": "Fight Club",
     "text": "Game app, where player plays vs computer (random animal). Player can choose character, weapon. When player wins fight, he will get money and is able to buy potions. Potions are two different types.",
-    "img": ["images/fightClub1.png", "images/fightClub5.png"],
+    "img": ["images/fightClub1.PNG", "images/fightClub5.PNG"],
     "url": "https://github.com/Gintarra/fight_club_game"
   },
   {
     "title": "Make It Easy",
     "text": "Html project. This is very simple front-end framework. User can use styled buttons, a lot of flex classes, margins, paddings.",
-    "img": ["images/makeItEasy1.png", "images/makeItEasy2.png"],
+    "img": ["images/makeItEasy1.PNG", "images/makeItEasy2.PNG"],
     "url": "https://github.com/Gintarra/makeItEasy"
   },
   {
     "title": "Siulyk24",
     "text": "Group project. It is like market, users can sell and buy items. If you find item which you want to buy, you must offer price. Seller can accept it or decline it. If he accepts, he gets buyer's contact. Users can write reviews, messages to admin, change profile picture.",
-    "img": ["images/siulyk24.png", "images/siulyk24_3.png"],
+    "img": ["images/siulyk24.PNG", "images/siulyk24_3.PNG"],
     "url": "https://github.com/AndyCosow/siulyk24-front"
   }
 ]
