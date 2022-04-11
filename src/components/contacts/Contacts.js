@@ -11,7 +11,7 @@ const Contacts = () => {
 
     return (
         <div ref={toContact}>
-            <div className='d-flex justify-center align-center'>  <GrContactInfo style={{ fontSize: "3rem" }} /> <h2>Contacts</h2></div>
+            <div className='d-flex justify-center align-center'>  <GrContactInfo style={{ fontSize: "3rem" }} /> <h2>Contact Me</h2></div>
             <div className='d-flex space-ev card md-column md-align-center'>
                 <p className='align-center d-flex'> <HiOutlineMail style={{ fontSize: "2rem" }} /> gintare.raudziute@gmail.com </p>
                 <p className='align-center d-flex'> <BsTelephone style={{ fontSize: "2rem" }} /> +370 627 72448 </p>

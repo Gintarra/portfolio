@@ -13,7 +13,7 @@
   },
   {
     "title": "Fight Club",
-    "text": "Game app, where player plays vs computer (random animal). Player can choose character, weapon. When player wins fight, he will get money and is able to buy potions. Potions are two different types: healing and with various effects (add strength, add stamina and etc.)",
+    "text": "Game app, where player plays vs computer (random animal). Player can choose character, weapon. When player wins fight, he will get money and is able to buy potions. Potions are two different types.",
     "img": ["images/fightClub1.png", "images/fightClub5.png"],
     "url": "http://google.com"
   },
@@ -25,8 +25,8 @@
   },
   {
     "title": "Siulyk24",
-    "text": "Group project. It is like market, users can sell and buy items. When you find item which you want, you must offer price, then seller can accept it or decline. If he accepts, he gets buyer's contact. Users can write reviews, messages to admin, change profile picture.",
-    "img": ["images/siulyk24_1.png", "images/siulyk24_3.png"],
+    "text": "Group project. It is like market, users can sell and buy items. If you find item which you want to buy, you must offer price. Seller can accept it or decline it. If he accepts, he gets buyer's contact. Users can write reviews, messages to admin, change profile picture.",
+    "img": ["images/siulyk24.png", "images/siulyk24_3.png"],
     "url": "http://google.com"
   }
 ]

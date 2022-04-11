@@ -17,7 +17,7 @@ const About = () => {
             <div className='d-flex card md-d-block'>
                 <div className='grow1 d-flex justify-center column align-center md-grow'>
                     <img className='img-me' src={'images/me2.jpg'} alt="" />
-                    <a href={'docs/test.pdf'} download ><button>DOWNLOAD CV</button></a>
+                    <a href={'docs/CV.pdf'} download ><button>DOWNLOAD CV</button></a>
                 </div>
                 <div className='grow2 about-text d-flex column align-center md-grow'>
                     <ul>

@@ -38,23 +38,6 @@ function App() {
 
 export default App;
 
-//prie about me mygtukas Download cv
-//padaryt animacija, kad po raide graziai rasytu, o ne per puse ir pan
 
-//About me - sumazint nuotrauka - tekstas be tasku, plain, 
-//normaliai isdestytas. Hobiai pavaizduoti kaip nors piesinukais ar 
-//zodziai skirtingo dydzio
-
-
-//skills - animated, percentages, black - gali but be uzsikrovimo
-
-
-//contact 
-//per didelis tarpas po pavadinimo
-//pilnavidures ikonas idet
-
-//toolbar - scroll paziuret, kazkas ne taip, ne visa graziai atskrolina
-
-//cv pasirasyti anglsika + lietuviska
 
 
